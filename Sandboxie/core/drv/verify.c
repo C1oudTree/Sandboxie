@@ -215,6 +215,7 @@ CleanupExit:
     return status;
 }
 
+
 NTSTATUS KphVerifySignature(
     _In_ PVOID Hash,
     _In_ ULONG HashSize,
